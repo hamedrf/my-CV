@@ -62,10 +62,13 @@ export const Home = () => {
                     <img src={me} className="about-img position-absolute col-lg-4 col-12"/>
                     </div>
                 <div className="  col-lg-7 col-12 position-relative  ">
-                <div className="about-text d-flex justify-content-center row align-items-center">                
+                <div className="about-text d-flex justify-content-center row align-items-center ">                
                     <div className="col-lg-4 col-12 about-text-block"></div>
                     <div className="col-lg-8 col-11 text-center">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                        <h1 className="display-3 my-4 fw-bold">درباره من</h1>
+                        <span className="fs-2">
+                            برنامه‌نویس وب با بیش از 3 سال تجربه در توسعه و طراحی وب‌سایت‌های پویا و جذاب هستم. تسلط دارم بر زبان‌های HTML، CSS، JavaScript، PHP و TypeScript. همچنین، با فریمورک‌ها و کتابخانه‌های معتبر مانند Bootstrap، jQuery و React آشنایی دارم. استفاده از hook‌هایی نظیر Redux Toolkit، React Query، Axios، React Router Dom و useReducer را به خوبی می‌دانم. همچنین، با کار با Custom Hooks و هوک‌های ری‌اکت و ساخت کامپوننت‌ها آشنایی دارم و توانایی کار با وردپرس و افزونه‌های آن مانند Elementor و WooCommerce را دارم. توانایی ارتقاء و بهینه‌سازی وب‌سایت‌ها و نرم‌افزارها برای بهبود تجربه کاربری را دارم. همچنین، توانایی حل مسائل پیچیده و ارائه راه‌حل‌های نوآورانه به مشکلات فنی را دارم. همچنین با زبان‌های دیگری مانند C#، Dart، Flutter، Blazor و MySQL (CRUD) نیز آشنایی دارم.
+                        </span>
                     </div>
                 </div>
             
@@ -163,7 +166,24 @@ export const Home = () => {
                         </div>
                     </div>
                     <div className="col-xl-8 col-lg-3 col-sm-12 samples-item-img "><div className="bg-img url-rest-api"></div></div>
-
+            </div>
+            <div className="row d-flex flex-row-reverse justify-content-center samples-item col-lg-9 col-11">
+                    <div className="col-xl-4 col-lg-9 col-sm-12 samples-item-text d-flex justify-content-center p-3 ">
+                        <div className="bg-purper-lite h-100 w-100 rounded rounded-5 d-flex justify-content-around flex-column align-items-center p-3">
+                            <h3 className="display-5 text-center "> <img className="rounded rounded-circle" src="data:image/png;base64,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" /> فروشگاه و وبلاگ وردپرسی</h3>
+                            <p >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی</p>                    
+                            <div className="my-4 row">
+                                <span className="w-auto m-2">با استفاده از:</span>
+                                <span className="bg-purper-lite w-auto m-1 p-1 fw-bold rounded rounded-3">react</span>
+                                <span className="bg-purper-lite w-auto m-1 p-1 fw-bold rounded rounded-3">ts</span>
+                                <span className="bg-purper-lite w-auto m-1 p-1 fw-bold rounded rounded-3">redux toolkid</span>
+                                <span className="bg-purper-lite w-auto m-1 p-1 fw-bold rounded rounded-3">axios</span>
+                                <span className="bg-purper-lite w-auto m-1 p-1 fw-bold rounded rounded-3">react query</span>
+                            </div>
+                            <button className="btn btn-success btn-lg p-2">بازدید از صفحه</button>
+                        </div>
+                    </div>
+                    <div className="col-xl-8 col-lg-3 col-sm-12 samples-item-img "><div className="bg-img bg-scroll  url-stor-wordpress"></div></div>
             </div>
         <svg xmlns="http://www.w3.org/2000/svg" className="position-absolute top-0 z-n1 d-none d-lg-block" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" width="3100" height="3000" preserveAspectRatio="none" viewBox="0 0 3100 3000">
     <g mask="url(&quot;#SvgjsMask1364&quot;)" fill="none">
@@ -223,12 +243,21 @@ export const Home = () => {
                     </a>
                 </li>
                 <li>
-                    <a className="twitter" href="#">
+                    <a className="linkedin" href="#">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
-                    <i className="fa-brands fa-twitter" aria-hidden="true"></i>
+                    <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a className="github" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
@@ -242,15 +271,43 @@ export const Home = () => {
                     </a>
                 </li>
                 <li>
-                    <a className="google" href="#">
+                    <a className="stack-overflow" href="#">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
-                    <i className="fa-brands fa-google-plus" aria-hidden="true"></i>
+                    <i className="fa-brands fa-stack-overflow" aria-hidden="true"></i>
                     </a>
                 </li>
                 </ul>
+            </div>
+            <div dir="rtl" className="mt-5">
+                <button type="button" className="btn btn-outline-light rounded rounded-pill btn-lg " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    تماس با من 
+                </button>
+                {/* modal */}
+                <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex={-1} aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                    <div className="modal-header">
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h5 className="modal-title" id="staticBackdropLabel">ارتباط با من</h5>
+                    </div>
+                    <div className="modal-body d-flex justify-content-center flex-column align-items-center">
+                        <img src={me} className="rounded rounded-circle" style={{width : "40%"}} />
+                        <h3>تماس با من</h3>
+                        <span>
+                        شماره تماس :  &nbsp;
+                        <a href="tel:+989012226411">989012226411+ </a> 
+                        </span>
+                        </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-danger" data-bs-dismiss="modal">بستن</button>
+                                <button type="button" className="btn btn-success" onClick={() => window.open('tel:+989012226411')}>تماس</button>
+                            </div>
+                        </div>
+                </div>
+                </div>
             </div>
             <div className="text-center text-light mt-5 mb-3">
                 © تمامی حقوق این وبسایت متعلق به حامد رجبی فرجاد میباشد .

@@ -25,7 +25,7 @@ export const Navbar =() =>
                     </li>
                     </ul>
                     <div className="form-inline my-2 my-lg-0">
-                    <button className="btn btn-outline-dark my-2 my-sm-0 rounded rounded-pill btn-lg " style={{fontSize : "20px"}}>ارتباط با ما</button>
+                    <button className="btn btn-outline-dark my-2 my-sm-0 rounded rounded-pill btn-lg " data-bs-toggle="modal" data-bs-target="#staticBackdrop" style={{fontSize : "20px"}}>ارتباط با ما</button>
                     </div>
                 </div>
                 </nav>
