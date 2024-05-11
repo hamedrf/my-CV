@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import icon from '../image/icon.jpg';
 export const Navbar =() =>
     {
@@ -12,20 +13,20 @@ export const Navbar =() =>
                     <span></span>
                     <ul className="navbar-nav mr-auto ">
                     <li className="nav-item menu-itme">
-                        <a className="nav-link" href="#">خانه</a>
+                        <Link className="nav-link" to="/" state={"home"} >خانه</Link>
                     </li>
                     <li className="nav-item menu-itme">
-                        <a className="nav-link" href="#">درباره من</a>
+                        <Link className="nav-link" to="/" state={"about"}>درباره من</Link>
                     </li>
                     <li className="nav-item menu-itme">
-                        <a className="nav-link" href="#">نمونه کار</a>
+                        <Link className="nav-link" to="/" state={"samples"}>نمونه کار</Link>
                     </li>
                     <li className="nav-item menu-itme">
-                        <a className="nav-link" href="#">یه چیزی</a>
+                        <Link className="nav-link" to="/" state={"social"}>ارتباط با من</Link>
                     </li>
                     </ul>
                     <div className="form-inline my-2 my-lg-0">
-                    <button className="btn btn-outline-dark my-2 my-sm-0 rounded rounded-pill btn-lg " data-bs-toggle="modal" data-bs-target="#staticBackdrop" style={{fontSize : "20px"}}>ارتباط با ما</button>
+                    <button className="btn btn-outline-dark my-2 my-sm-0 rounded rounded-pill btn-lg " data-bs-toggle="modal" data-bs-target="#staticBackdrop" style={{fontSize : "20px"}}> تماس با من</button>
                     </div>
                 </div>
                 </nav>

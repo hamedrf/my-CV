@@ -3,7 +3,6 @@ import { useDispatch } from "react-redux";
 import { Product, make } from "../hook/shop";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { Alert, colors } from "../compnent/Alert";
 
 export const Stor = () => {
     const dispatch = useDispatch();
@@ -37,9 +36,9 @@ export const Stor = () => {
             <div key={index} className="col-lg-3 col-md-5 col-10 mx-3 rounded rounded-5 d-flex justify-content-center flex-column align-items-center" style={{height : '50vh' , margin : "20px 30px 0px 30px" , background : "rgba(124, 138, 195, 0.3)"}}>
                 <img src={Element.image} className="rounded rounded-5" style={{maxHeight : "60%" , maxWidth : "90%" }}/>
                 <h1 className="display-6 text-start">{Element.title}</h1>
-                <div className="w-100 d-flex justify-content-between align-items-center mt-4">
+                <div className="w-100 d-flex justify-content-between align-items-center mt-4 px-4">
                     <Link to={"/ProductInfo"} state={Element}>
-                    <button className="btn-lg btn btn-success h1">صفحه محصول</button>
+                    <button className="btn-lg p-1 btn btn-success h1">صفحه محصول</button>
                     </Link>
                     <h5 className="text-success display-6"> ${Element.price}</h5>
                 </div>

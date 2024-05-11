@@ -29,6 +29,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/stor" element={<Stor />} />
           <Route path="/ProductInfo/" element={<ProductInfo/>} />
+          
         </Routes>
       </BrowserRouter>
     </QueryClientProvider>
