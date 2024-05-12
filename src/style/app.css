@@ -1,4 +1,4 @@
-/* gene */
+/* generally */
 @import url('https://v1.fontapi.ir/css/Vazir?n=vazir');
 *
 {
@@ -17,9 +17,28 @@ html
 {
     height: 100vh;
     width: 100vw;
-    margin-top: -80px;
+    margin-top: -97px;
     overflow: hidden;
 }
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 999px;
+    background: #f1f1f1; 
+    box-shadow: inset 0 0 5px rgb(180, 180, 180); 
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: rgb(124,138,195);
+    background: linear-gradient(180deg, rgba(124,138,195,1) 0%, rgba(122,146,254,1) 100%);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(120, 130, 200);
+    background: linear-gradient(180deg, rgb(120, 130, 200) 0%,  rgb(100, 119, 273) 100%);
+}
+
 /* nav */
 
 .main-nav

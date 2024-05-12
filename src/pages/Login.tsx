@@ -26,7 +26,7 @@ export const Login = () =>
                 </svg>
             </div>
             <div className="bg-light rounded rounded-5   col-md-7 col-sm-11 col-xl-4 d-flex border-purper justify-content-evenly align-items-center">
-                <form className="d-flex flex-column justify-content-around  h-75 w-75" action="#">
+                <div className="d-flex flex-column justify-content-around  h-75 w-75" >
                     <div className="form-group mb-3" style={{marginTop : "-40px"}}>
                     <h3 className="display-4">فرم ورود {username}</h3>
                     </div>
@@ -42,7 +42,7 @@ export const Login = () =>
                         <button type="submit" className="btn btn-primary mx-3 btn-lg" onClick={() => {dispatch(login(name)); setHandelAlert(1) }}>وارد شدن</button>
                         <button type="submit" className="btn btn-danger mx-3 btn-lg" onClick={() => {setHandelAlert(2) ;dispatch(logout());}}>خارج شدن</button>
                     </div>
-                </form>
+                </div>
                 {handelAlert === 1 && <Alert  text={`${username} عزیز ورود شما با موفقیت انجام شد :)`} color={colors.success} /> }
                 {handelAlert === 2 && <Alert  text= ' کاربر عزیز شما از حساب کاربری خود خارج شدید :/' color={colors.danger} /> }
             </div>

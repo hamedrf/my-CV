@@ -37,7 +37,7 @@ export const ProductInfo :  React.FC = ()=>
                         <h3 className="display-6 py-xl-3 py-md-2 py-1">{product.title}</h3>
                         <h5 className="py-xl-5 py-1 py-md-3">{product.description}</h5>
                         <div className="d-flex justify-content-between align-items-center w-100 py-xl-5 mt-xl-5 py-4 mt-2">
-                            <button className={"btn  btn-lg " + (buy? "btn-danger" : "btn-success")} onClick={() => setbuy(!buy)}>{buy?"حذف" : "خرید"}</button>
+                            <button className={"btn  btn-lg p-2 " + (buy? "btn-danger" : "btn-success")} onClick={() => setbuy(!buy)}>{buy?"حذف" : "خرید"}</button>
                             <h5 className="text-success display-6">${product.price}</h5>
                         {buy && <Alert  text="به سبد خرید شما اضافه شد (این سایت فاقد هرگونه ارزش مالی میباشد)" color={colors.success} />}
                         </div>

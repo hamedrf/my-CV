@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import useRunOnce from "../hook/useRunOnce";
 import persen from '../image/testImage.png';
 import icon from '../image/icon.jpg';
-import me from '../image/me.jpg';
+import me from '../image/me.JPG';
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -65,7 +65,7 @@ export const Home = () => {
             </div>
             <div className="col-lg-5 col-sm-12 text-lg-end text-center row" style={{marginRight : "20px!important"}}>
                 <h1>سلام! من <strong className="xl-size">حامد رجبی فرجاد</strong> هستم </h1>
-                <h3 className="mt-3 col-lg-9 col-11 mx-auto mx-lg-0" style={{fontSize : "1.5em"}}>سلام! من حامد رجبی فرجاد هستم. خوش آمدید به رزومه‌ی من. اینجا مکانی است که تجربیات و دانش‌هایم در زمینه‌های مختلف برنامه‌نویسی و توسعه وب را با شما به اشتراک می‌گذارم. امیدوارم که این اطلاعات برای شما مفید باشد.در صورت داشتن هر گونه سوال یا پیشنهاد، با من تماس بگیرید.</h3>
+                <h3 className="mt-3 col-lg-9 col-11 mx-auto px-2 mx-lg-0" style={{fontSize : "1.5em"}}>سلام! من حامد رجبی فرجاد هستم. خوش آمدید به رزومه‌ی من. اینجا مکانی است که تجربیات و دانش‌هایم را در زمینه‌های مختلف برنامه‌نویسی و توسعه وب  با شما به اشتراک می‌گذارم. امیدوارم که این اطلاعات برای شما مفید باشد.در صورت داشتن هر گونه سوال یا پیشنهاد، با من تماس بگیرید.</h3>
             </div>
         </div>
         {/* separator header */}
@@ -279,7 +279,7 @@ export const Home = () => {
             <div className="social-bar ">
             <ul>
                 <li>
-                    <a className="telegram" href="#">
+                    <a className="telegram" href="https://t.me/hamed_rf276">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -288,7 +288,7 @@ export const Home = () => {
                     </a>
                 </li>
                 <li>
-                    <a className="instagram" href="#">
+                    <a className="instagram" href="https://www.instagram.com/hamed.__rf?igsh=bnpxdmFyZWVlem1m">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -297,7 +297,7 @@ export const Home = () => {
                     </a>
                 </li>
                 <li>
-                    <a className="github" href="#">
+                    <a className="github" href="https://github.com/hamedrf">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -306,7 +306,7 @@ export const Home = () => {
                     </a>
                 </li>
                 <li>
-                    <a className="stack-overflow" href="#">
+                    <a className="stack-overflow" href="https://stackoverflow.com/users/24951777/hamedrf">
                     <span></span>
                     <span></span>
                     <span></span>
