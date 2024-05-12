@@ -5,13 +5,19 @@
     font-family: 'vazir' ;
     direction: rtl;
 }
+body
+{
+    width: 100vw;
+    overflow: hidden;
+}
 .row *
 {
     padding: 0px !important;
 }
-html
+
+html 
 {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .fix-background
 {
@@ -86,11 +92,11 @@ html
 
 .bg-dark-purper{
     background-color:  #5869B2  !important;
-     /* #96AAFA #354AB1 */
-     /* rgb(88, 105, 178) */
-     /* rgba(88, 105, 178, 1) */
-     /* rgba(124, 138, 195, 1) */
-     /* rgba(67, 82, 146, 1) */
+    /* #96AAFA #354AB1 */
+    /* rgb(88, 105, 178) */
+    /* rgba(88, 105, 178, 1) */
+    /* rgba(124, 138, 195, 1) */
+    /* rgba(67, 82, 146, 1) */
 }
 /* button */
 .btn-dark-purper{
@@ -99,7 +105,7 @@ html
     color: #5869B2 ;
     border-radius: 25px;
     padding: 10px 15px;
-     /* #96AAFA #354AB1 */
+    /* #96AAFA #354AB1 */
 }
 .btn-dark-purper:hover
 {
@@ -402,6 +408,10 @@ html
     .about-text
     {
         padding: 1vw !important;
+    }
+    .about-text div div
+    {
+        padding-right: 27px !important;
     }
 }
 @media only screen and (max-width: 992px) 

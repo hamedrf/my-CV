@@ -58,12 +58,12 @@ export const Home = () => {
     return (
     <div className=" main-home ">
         {/* header */}
-        <div className="bg-purper main-header row d-flex align-items-center" >
+        <div className="bg-purper main-header row d-flex align-items-center justify-content-center" >
             <div className="col-lg-7 col-sm-12 header-images align-self-end">
                 <img src={persen} className="header-img"/>
                 <svg id="el9nQBWTVuK1" className="header-svg" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><ellipse rx="100" ry="100" transform="translate(100 100)" fill="rgba(88,105,178,0.4)" stroke-width="0"/></svg>
             </div>
-            <div className="col-lg-5 col-sm-12 text-lg-end text-center row" style={{marginRight : "20px!important"}}>
+            <div className="col-lg-5 col-12 text-lg-end text-center row m-0">
                 <h1>سلام! من <strong className="xl-size">حامد رجبی فرجاد</strong> هستم </h1>
                 <h3 className="mt-3 col-lg-9 col-11 mx-auto px-2 mx-lg-0" style={{fontSize : "1.5em"}}>سلام! من حامد رجبی فرجاد هستم. خوش آمدید به رزومه‌ی من. اینجا مکانی است که تجربیات و دانش‌هایم را در زمینه‌های مختلف برنامه‌نویسی و توسعه وب  با شما به اشتراک می‌گذارم. امیدوارم که این اطلاعات برای شما مفید باشد.در صورت داشتن هر گونه سوال یا پیشنهاد، با من تماس بگیرید.</h3>
             </div>
@@ -86,11 +86,11 @@ export const Home = () => {
                 <div className="  col-lg-7 col-12 position-relative  ">
                 <div className="about-text d-flex justify-content-center row align-items-center ">                
                     <div className="col-lg-4 col-12 about-text-block"></div>
-                    <div className="col-lg-8 col-11 text-center">
+                    <div className="col-lg-8 col-12 text-center">
                         <h1 className="display-3 my-4 fw-bold">درباره من</h1>
-                        <span className="fs-2">
+                        <div className="fs-2">
                             برنامه‌نویس وب با بیش از 3 سال تجربه در توسعه و طراحی وب‌سایت‌های پویا و جذاب هستم. تسلط دارم بر زبان‌های HTML، CSS، JavaScript، PHP و TypeScript. همچنین، با فریمورک‌ها و کتابخانه‌های معتبر مانند Bootstrap، jQuery و React آشنایی دارم. استفاده از hook‌هایی نظیر Redux Toolkit، React Query، Axios، React Router Dom و useReducer را به خوبی می‌دانم. همچنین، با کار با Custom Hooks و هوک‌های ری‌اکت و ساخت کامپوننت‌ها آشنایی دارم و توانایی کار با وردپرس و افزونه‌های آن مانند Elementor و WooCommerce را دارم. توانایی ارتقاء و بهینه‌سازی وب‌سایت‌ها و نرم‌افزارها برای بهبود تجربه کاربری را دارم. همچنین، توانایی حل مسائل پیچیده و ارائه راه‌حل‌های نوآورانه به مشکلات فنی را دارم. همچنین با زبان‌های دیگری مانند C#، Dart، Flutter، Blazor و MySQL (CRUD) نیز آشنایی دارم.
-                        </span>
+                        </div>
                     </div>
                 </div>
             
@@ -255,7 +255,7 @@ export const Home = () => {
             </div>
         </div>
         {/* footer */}
-        <div id="social" className="overflow-hidden position-relative d-flex flex-column  justify-content-between align-items-center pt-5"  style={{ marginTop: '-251px' , top:'250px'}}>
+        <div id="social" className="overflow-hidden position-relative d-flex flex-column  justify-content-between align-items-center pt-5"  >
             
             <svg xmlns="http://www.w3.org/2000/svg" className="h-100 position-absolute top-0 z-n1" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" width="2550" height="1440" preserveAspectRatio="none" viewBox="0 0 2550 1440">
                 <g mask="url(&quot;#SvgjsMask1035&quot;)" fill="none">
