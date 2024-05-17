@@ -5,7 +5,9 @@ export const Navbar =() =>
     return(
             <div className="main-nav">
             <nav className="navbar navbar-expand-lg navbar-light nav-div ">
+            <Link to="/">
                 <a className="navbar-brand " style={{fontSize : "2em"}}> Hamed <img className='rounded rounded-circle' style={{height: "70px"}} src={icon} /></a>
+            </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

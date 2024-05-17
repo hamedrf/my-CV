@@ -10,6 +10,9 @@ body
     width: 100vw;
     overflow: hidden;
 }
+a{
+    text-decoration: none !important;
+}
 .row *
 {
     padding: 0px !important;
