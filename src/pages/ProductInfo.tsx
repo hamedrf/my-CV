@@ -31,11 +31,11 @@ export const ProductInfo :  React.FC = ()=>
                 </svg>
                 <div className="row col-xl-8 col-md-11 col-12 bg-purper-lite rounded rounded-5 d-flex justify-content-center align-items-center p-xl-5 p-3 p-md-3">
                     <div className="col-xl-5 col-12  d-flex justify-content-center align-items-end row">
-                        <img src={product.image} className="rounded rounded-4 col-xl-8 col-md-8 col-9 " style={{maxHeight : '40%!important'}}/>
+                        <img src={product.image} className="rounded rounded-4 col-xl-8 col-md-8 col-9 product-img"/>
                     </div>
                     <div className="col-xl-7 col-12">
-                        <h3 className="display-6 py-xl-3 py-md-2 py-1">{product.title}</h3>
-                        <h5 className="py-xl-5 py-1 py-md-3">{product.description}</h5>
+                        <h3 className="font-title py-xl-3 py-md-2 py-1">{product.title}</h3>
+                        <h5 className="font-des py-xl-5 py-1 py-md-3">{product.description}</h5>
                         <div className="d-flex justify-content-between align-items-center w-100 py-xl-5 mt-xl-5 py-4 mt-2">
                             <button className={"btn  btn-lg p-2 " + (buy? "btn-danger" : "btn-success")} onClick={() => setbuy(!buy)}>{buy?"حذف" : "خرید"}</button>
                             <h5 className="text-success display-6">${product.price}</h5>

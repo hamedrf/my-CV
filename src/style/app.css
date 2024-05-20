@@ -1,13 +1,22 @@
 /* generally */
-@import url('https://v1.fontapi.ir/css/Vazir?n=vazir');
+@font-face {
+    font-family: 'Vazir';
+    src: url('../font/vazir.woff2') format('woff2'),
+        url('../font/vazir.eot') format('eot'),
+        url('../font/vazir.woff') format('woff'),
+        url('../font/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 *
 {
-    font-family: 'vazir' ;
+    font-family: 'Vazir';
     direction: rtl;
 }
 body
 {
     width: 100vw;
+    font-family: 'Vazir';
     overflow: hidden;
 }
 a{
@@ -133,25 +142,41 @@ html
 
 .main-header{
     margin-top: -100px !important;
+    padding-top: 50px;
+    padding-bottom: -1px;
 }
 .header-images
 {
     z-index: 1;
-    padding-right: 5vw !important;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    
 }
 /* animation header */
 .header-img
 {
-
-    width: 100%;
+    width: 70%;
     z-index: 3;
+    transform: translate(210px ,0px);
+    transition: 1s;
+}
+.animat-img
+{
+    transform: translate(0px , 0px);
 }
 .header-svg{
     position: absolute;
-    right: 20px;;
-    bottom: 15vh; 
-    width: 35%;
+    right: -2vw;
+    bottom: 0;
+    width: 100%;
+    transform: translate(0px ,210px);
+    transition: 1s;
 }
+.animat-svg
+{
+    transform: translate(0px , 0px);
+}
+
 /* about */
 .about{
 
@@ -383,6 +408,12 @@ html
 {
     padding: 200px 0px 50px 0px ;
     border-radius: 0px 0px 50% 50%;
+}
+.product-img
+{
+    mix-blend-mode: multiply;
+    max-height: 50%;
+    max-width: 100%;
 }
 
 /* background */
