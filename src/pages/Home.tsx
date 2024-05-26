@@ -90,8 +90,8 @@ export const Home = () => {
             <div className="about-box d-flex justify-content-between flex-column flex-lg-row  col-xl-10  col-lg-11 align-items-center  position-relative"> 
                 <img src={me} className="about-img"/>              
                 <div className="text-center about-text">
-                            <h1 className="display-3 my-4 fw-bold">درباره من</h1>
-                            <div className="font-des">
+                            <h1 className="display-3  my-4 fw-bold">درباره من</h1>
+                            <div className="font-des px-2">
                                 برنامه‌نویس وب با بیش از 3 سال تجربه در توسعه و طراحی وب‌سایت‌های پویا و جذاب هستم. تسلط دارم بر زبان‌های HTML، CSS، JavaScript، PHP و TypeScript. همچنین، با فریمورک‌ها و کتابخانه‌های معتبر مانند Bootstrap، jQuery و React آشنایی دارم. استفاده از hook‌هایی نظیر Redux Toolkit، React Query، Axios، React Router Dom و useReducer را به خوبی می‌دانم. همچنین، با کار با Custom Hooks و هوک‌های ری‌اکت و ساخت کامپوننت‌ها آشنایی دارم و توانایی کار با وردپرس و افزونه‌های آن مانند Elementor و WooCommerce را دارم. توانایی ارتقاء و بهینه‌سازی وب‌سایت‌ها و نرم‌افزارها برای بهبود تجربه کاربری را دارم. همچنین، توانایی حل مسائل پیچیده و ارائه راه‌حل‌های نوآورانه به مشکلات فنی را دارم. همچنین با زبان‌های دیگری مانند C#، Dart، Flutter، Blazor و MySQL (CRUD) نیز آشنایی دارم.
                             </div>
                 </div>

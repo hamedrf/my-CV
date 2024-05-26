@@ -142,7 +142,7 @@ html
 
 .main-header{
     margin-top: -100px !important;
-    padding-top: 50px;
+    padding-top: 11vh;
     padding-bottom: -1px;
 }
 .header-images
@@ -150,7 +150,6 @@ html
     z-index: 1;
     margin-bottom: 5vh;
     margin-right: 5vw;
-    
 }
 /* animation header */
 .header-img
@@ -180,7 +179,7 @@ html
 /* about */
 .about{
 
-    padding: 25vh 0px 35vh 0px;
+    padding: 25vh 0px 25vh 0px;
     
 }
 .about-img
@@ -451,6 +450,10 @@ html
 }
 @media only screen and (max-width: 992px) 
 {
+    .about
+    {
+        padding: 10vh 0px 5vh 0px!important;
+    }
     /* fonts */
     .font-title
     {
@@ -466,6 +469,10 @@ html
     }
     /* about */
 
+    .about
+    {
+        padding: 10vh 0px;
+    }
     .about-img
     {
         transform: translate(0 ,0 );
